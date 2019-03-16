@@ -1,0 +1,35 @@
+header .container-h
+{
+    grid-template-columns: repeat(3,1fr);
+}
+footer .container-f>*:nth-child(3)
+{
+    display: none;
+}
+#footer .container-f
+{
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+
+
+
+@media (max-width:921px)
+{
+   header .social-media
+    {
+        display: none;
+    }
+    header .container-h
+    {
+    grid-template-columns: 1.5fr 1fr;
+    }
+    #footer input,#footer a
+    {
+        width: 100%;
+    }
+    #footer a{text-align: center;}
+
+}
+
